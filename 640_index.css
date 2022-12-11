@@ -1,5 +1,64 @@
-@charset "utf-8";
-/* CSS Document */
 *{margin:0; padding:0; list-style-type:none; text-decoration:none;}
-html{width: 100%;background:rgba(248,238,195,0.70);}
-body{margin:2%;text-align: center; font:normal 62.5% Arial,Helvetica,sans-serif;color: rgba(0,0,0,1.00);}
+html{width: 100%;font-size: 62.5%;font-family:"Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;}
+body{text-align: center;}
+.guide{display: inline-block;margin: 2rem;width: 50rem;}
+.logo{float: left;}
+.logo img{height: 8rem;}
+.bar{display: none;}
+.bar li{float: left;margin: 1.25rem 0 0 5rem;font-size:2.5rem;}
+.bar a:link{color: rgba(57,114,152,1);}
+.bar a:hover{text-decoration: underline;}
+.bar a:visited{color: rgba(57,114,152,1);}
+.bar span{text-decoration: ;border-bottom: 0.25rem dotted;}
+.lang{margin-top: 1rem;font-size:4rem;border: 0.2rem solid;padding: 0.6rem;float: right;}
+.lang span{color: rgba(255,255,255,1);background:rgba(57,114,152,1);}
+.lang a:link{color: rgba(57,114,152,1);}
+.lang a:hover{color: rgba(255,255,255,1);background:rgba(57,114,152,1);}
+.pic{width: 96%;margin-left: 2%;}
+.pic img{width: 100%;}
+.t{font-size:3.5rem;font-weight: bold;color: rgba(57,114,152,1);margin: 3rem 0 2rem 0;width: 55rem;display: inline-block;border-bottom: 0.3rem solid;}
+.pnt{width: 55rem;display: inline-block;}
+.pnt li{width: 55rem;float: left;overflow: hidden;margin-top: 2rem;}
+.pnt img{width: 55rem;float: left;}
+.pnt p{font-size:2.5rem;text-align: left;line-height: 3rem;}
+.pnt span{font-size:3rem;font-weight: bold;}
+.bg{width: 96%;margin-left: 2%;background:rgba(87,133,163,1);margin-top: 3rem;}
+.t2{margin: 3rem 0 1rem 0;width: 55rem;display: inline-block;}
+.t2 p{font-size:3.5rem;font-weight: bold;color: rgba(255,255,255,1);padding-bottom: 2rem;}
+.t2 span{border: 0.3rem solid;color: rgba(1,1,1,1);background:rgba(255,255,255,1);padding: 0.3rem 3rem;border-radius:3rem;font-size:3rem;}
+.t2 span:active{color: rgba(255,255,255,1);background:rgba(1,1,1,1);}
+.pd{width: 55rem;display: inline-block;margin-bottom: 3rem;}
+.pd li{width: 26rem;float: left;overflow: hidden;margin:1rem 0.5rem 0 0.5rem;padding-bottom: 2rem; border: 0.25rem solid rgba(255,255,255,1.00);}
+.pd img{width: 55rem;float: left;margin-left: 1rem;}
+.pd p{font-size:2.2rem;padding-top: 1rem;color: rgba(255,255,255,1.00);}
+.pd span{font-size:2.8rem;font-weight: bold;border-bottom: 0.3rem dotted;}
+.brand{width: 55rem;display: inline-block;margin: 1rem 0 3rem 0}
+.brand img{width: 80%;}
+.brand p{font-size:2.5rem;line-height: 3rem; text-align: left;margin: 2rem 0 0 1rem;}
+.brand a:active{text-decoration: underline;}
+.contact{width: 55rem;display: inline-block;}
+.contact li{width: 55rem;float: left;margin-top: 2rem;}
+.contact p{font-size:2.5rem;line-height: 3.5rem;}
+.contact span{font-size:2.5rem;font-weight: bold;}
+.contact img{width: 80%;margin-top: 5rem;}
+.bg2{width: 96%;margin-left: 2%;background:rgba(57,114,152,1);margin-top: 5rem;}
+.end{width: 55rem;display: inline-block;padding: 1rem 0 5rem 0;}
+.end p{font-size:2rem;margin-top: 2rem;color: rgba(255,255,255,1.00);}
+.end a:link{color: rgba(255,255,255,1);}
+.end a:active{text-decoration: underline;}
+.end a:visited{color: rgba(255,255,255,1);}
+.about{width: 55rem;display: inline-block;}
+.about p{font-size:2.5rem;text-align:left;line-height: 3.5rem;margin-top: 1rem;}
+.about a:active{text-decoration: underline;}
+.about img{width: 80%;margin-top: 3rem;}
+.pic2{width: 55rem;margin-top:3rem;display: inline-block;}
+.pic2 img{width: 100%;}
+.co{width: 55rem;display: inline-block;}
+.co li{display: inline-block;margin-top:2rem;}
+.co img{width: 55rem;border: 0.1rem solid rgba(0,0,0,0.20);}
+.co p{font-size:2.5rem;line-height: 3.5rem;}
+.co span{font-size:3rem;font-weight: bold;}
+.list{width: 55rem;margin-top:3rem;display: inline-block;}
+.list li{width:55rem;float: left;margin: 1rem 0; overflow: hidden;}
+.list p{font-size:2.5rem;line-height: 3.5rem;}
+.list span{width:55rem;font-size:3rem;font-weight: bold;color: rgba(57,114,152,1);display: inline-block;border-bottom: 0.3rem solid;margin-bottom: 1rem;}
