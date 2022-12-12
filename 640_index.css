@@ -10,30 +10,30 @@ body{text-align: center;}
 .bar a:hover{text-decoration: underline;}
 .bar a:visited{color: rgba(57,114,152,1);}
 .bar span{text-decoration: ;border-bottom: 0.25rem dotted;}
-.lang{margin-top: 4rem;font-size:3rem;border: 0.2rem solid;padding: 0.6rem;float: right;}
+.lang{margin-top: 1rem;font-size:3rem;border: 0.2rem solid;padding: 0.6rem;float: right;}
 .lang span{color: rgba(255,255,255,1);background:rgba(57,114,152,1);}
 .lang a:link{color: rgba(57,114,152,1);}
 .lang a:hover{color: rgba(255,255,255,1);background:rgba(57,114,152,1);}
 .pic{width: 96%;display: inline-block;overflow: hidden;}
-.pic img{width: 150%;margin-left: -25%;}
-.t{font-size:3rem;font-weight: bold;color: rgba(57,114,152,1);margin: 3rem auto 2rem auto;width: 90%;display: inline-block;border-bottom: 0.3rem solid;}
+.pic img{width: 200%;margin-left: -50%;}
+.t{font-size:2.6rem;font-weight: bold;color: rgba(57,114,152,1);margin: 3rem auto 2rem auto;width: 90%;display: inline-block;border-bottom: 0.3rem solid;}
 .pnt{width: 90%;display: inline-block;}
 .pnt li{width: 100%;float: left;overflow: hidden;margin-top: 2rem;}
 .pnt img{width: 100%;float: left;}
-.pnt p{font-size:2.5rem;text-align: left;line-height: 3rem;}
-.pnt span{font-size:2.6rem;font-weight: bold;}
+.pnt p{font-size:2.2rem;text-align: left;line-height: 2.5rem;}
+.pnt span{font-size:2.5rem;font-weight: bold;}
 .bg{width: 96%;display: inline-block;background:rgba(87,133,163,1);margin-top: 3rem;}
 .t2{margin: 3rem auto 1rem auto;width: 90%;display: inline-block;}
 .t2 p{font-size:3rem;font-weight: bold;color: rgba(255,255,255,1);padding-bottom: 2rem;}
 .t2 span{border: 0.3rem solid;color: rgba(1,1,1,1);background:rgba(255,255,255,1);padding: 0.3rem 3rem;border-radius:3rem;font-size:3rem;}
 .t2 span:active{color: rgba(255,255,255,1);background:rgba(1,1,1,1);}
 .pd{width: 100%;display: inline-block;margin-bottom: 3rem;}
-.pd li{width: 47.25%;float: left;overflow: hidden;margin:1rem 1% 0 1%;padding-bottom: 2rem; border: 0.2rem solid rgba(255,255,255,1.00);}
-.pd p{font-size:2rem;padding-top: 1rem;color: rgba(255,255,255,1.00);}
-.pd span{font-size:2.5rem;font-weight: bold;border-bottom: 0.3rem dotted;}
+.pd li{width: 90%;display: inline-block;overflow: hidden;margin-top:1rem;padding: 2rem 0; border: 0.2rem solid rgba(255,255,255,1.00);}
+.pd p{font-size:2.5rem;line-height: 3.5rem;color: rgba(255,255,255,1.00);}
+.pd span{font-size:3rem;font-weight: bold; border-bottom: 0.3rem dotted;}
 .brand{width: 90%;display: inline-block;margin: 1rem 0 3rem 0}
 .brand img{width: 80%;}
-.brand p{font-size:2.5rem;line-height: 3rem; text-align: left;margin-top: 2rem;}
+.brand p{font-size:2.2rem;line-height: 2.5rem; text-align: left;margin-top: 2rem;}
 .brand a:active{text-decoration: underline;}
 .contact{width: 90%;display: inline-block;}
 .contact li{width: 100%;float: left;margin-top: 2rem;}
